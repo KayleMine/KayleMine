@@ -4,25 +4,27 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <html>
 	<head>
-		<title>HelpDesk</title>
+		<title>Help Desk</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
 
+	</head>
+
+	<body class="is-preload">
 		<!-- Sidebar -->
 			<section id="sidebar">
 				<div class="inner">
 					<nav>
 						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">Files</a></li>
-							<li><a href="#two">Launch</a></li>
-							<li><a href="#three">IN-Game Addon</a></li>
+							<li><a href="#intro">Привет!</a></li>
+							<li><a href="#one">Файлы</a></li>
+							<li><a href="#two">Запуск</a></li>
+							<li><a href="#three">Аддоны</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -34,8 +36,8 @@
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
-							<h1>Help Desk</h1>
-							<p>Just another try to help you, with that stuff!</p>
+							<h1>Помощь!</h1>
+							<p>Штош, попытаемся разобраться что работает не так.</p>
 							<ul class="actions">
 
 							</ul>
@@ -48,11 +50,11 @@
 
 							<div class="content">
 								<div class="inner">
-									<h2>Check FIles</h2>
-									<p> Turn Off Windows Defender! Also disable core isolation. (Memory Integrity)
-										<br>Open ur game root folder *D:\games\World_of_Warcraft*
-									<br> If EXE named different from wow.exe, and unlocker doesnt see that laucher.
-								<br> You probably have to rename it. (rename to wow.exe) </p>
+									<h2>Проверка файлов.</h2>
+									<p> Выключаем полность windows defender и его core isolation. (Memory Integrity)
+										<br> Открываем папку с игрой (Пример *D:\games\World_of_Warcraft*)
+									<br> Если EXE назван не стандартно (wow.exe), и анлокер его не увидел.
+								<br> Вам потребуется его переименовать. (Переименуйте его в wow (wow.exe)) </p>
 									<ul class="actions">
 
 									</ul>
@@ -63,11 +65,11 @@
 
 							<div class="content">
 								<div class="inner">
-									<h2>Launch settings</h2>
-									<p>1. Re-launch unlocker as admin. Then check. (If nothing then go to next step.)
-	<br />  2.  Re-launch unlocker as admin + Re-launch game as admin too.
-	<br />   3. DO NOT UNLOCK LUA ON GAME LOADSCREEN!! WAIT UNTILL GAME FULL LOAD!!!
-	<br /> 		4. If still not working. try to update your .Net
+									<h2>Как запускать если не работает как обычно.</h2>
+									<p>1. Запускаем анлокер от админа, если не помогло идем дальше.
+	<br />  2. Запускаем вов и анлокер от админа.
+	<br />   3. НЕ РАЗБЛОКИРУЙТЕ ЛУА ПОКА ИГРА НЕ ЗАГРУЗИЛАСЬ!
+	<br /> 		4. Если всё ещё не работает обновите ваш .Net (Так-же обновите Win10)
 									<ul class="actions">
 
 									</ul>
@@ -78,14 +80,53 @@
 
 							<div class="content">
 								<div class="inner">
-									<h2>IN-Game Addon</h2>
-									<p>1. Check where you put Feral addon.
-<br/>  2. Open Interface folder in game then open Addons.
-<br/>   3. Start game type in chat /fd help that will show all cmds.
-<br/> 	  4. If you want load profile type /fd list that will show profile list.
-<br> Now to load type: /fd load *here spec name*
-<br> (Example: If you see in list: Feral --- FlexHub.com , type /fd load Feral)
+									<h2>Настройки аддонов</h2>
+									<br>
+										<h3>Battle For Azerot (8.X.X)</h3>
+									<p>
+										0. Первая кнопка на фрейме аддона включает и выкл. ротацию.
+										<br>
+										1. Провеьте куда установлен аддон Feral, откройте папку с игрой.
+<br/>  2. Откройте папку Interface потом  папку Addons поместите папку Feral туда..
+<br/>   3. В игре напишите /fd help вам выдаст список всех комманд.
+<br/> 	  4. Что бы получить список доступных профилей пишем /fd list
+<br> Что бы загрузить профиль пишем: /fd load *Имя профиля*
+<br> (Пример: Вы видите в списке: Feral --- FlexHub.com , пишите /fd load Feral)
+<br> (P.s Cooldowns - Бурсты, Interrupt - Кик, AOE - aoe...)
 </p>
+<br>
+<h3> Legion (7.X.X)</h3>
+	<br>
+	<p> 0. Запомните если в настр. профиля есть TARGET SETTINGS, вы меняете их на >NORMAL<.<br>
+		1. По аналогии с бфа, проверяем где находятся NerdPack(_XXX) аддоны.
+<br/>  2. Открываем папку с игрой, потом Interface. <br> Дальше откройте папку Addons, поместите все аддоны туда.<br>
+<br>
+		<img src="assets\pngguide\mainframe.png" alt="MainAddonFrame">
+		<br>В игре, если вы всё сделали правильно появиться такой фрейм.<br>
+		 <br>
+		<img src="assets\pngguide\maineframemenu.png" alt="MainAddonFrame">		<br>
+		1. Тык правой кнопкой на первый фрейм.<br>
+		2. После анлока луа жмите на NerdPack Protected. <br> (Если всё верно в чате напишет Generic detected.)
+ <br> <br>
+
+		<img src="assets\pngguide\mainframeprofile.png" alt="MainAddonFrame">		<br>
+		1. Откройте меню ещё раз, наведите на Combat Routines<br>
+		2. Выберите профиль и нажмите на него.
+		 <br> <br>
+		<img src="assets\pngguide\mainframetoggle.png" alt="MainAddonFrame">		<br>
+		После загрузки профиля вкл\выкл первая кнопка, второя кик каста, третья бурсты, остальные от профиля зависят.<br>
+		 <br> <br>
+		<img src="assets\pngguide\mainframeprofilesett.png" alt="MainAddonFrame">		<br>
+	Если у выбранного профиля есть настройки, заходим в меню, наводим на Combat Routines SETTINGS, выбираем включенный профиль.<br>
+		Настраеваем.
+
+		 <br> <br>
+		<img src="assets\pngguide\profileframesett.png" alt="MainAddonFrame">		<br>
+Пример для Zyllas. (P.S Targeting должен быть NORMAL!!!!)<br>
+
+		 <br> <br>
+	</p>
+									<hr>
 									<ul class="actions">
 
 									</ul>
@@ -97,6 +138,14 @@
 
 			</div>
 
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Kirasaka Ayamo. All rights reserved.</li>
+					</ul>
+				</div>
+			</footer>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
