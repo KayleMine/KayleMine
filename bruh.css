@@ -1,0 +1,258 @@
+@import url(http://fonts.googleapis.com/css?family=IM+Fell+English+SC|Architects+Daughter);
+@import url(https://dl.dropboxusercontent.com/u/78192465/MyAnimeList/Akame/Animations.css);
+@import url(https://dl.dropboxusercontent.com/u/78192465/MyAnimeList/Akame/TopMenu.css);
+@import url(https://dl.dropboxusercontent.com/u/78192465/MyAnimeList/Akame/CategoryMenu.css);
+/* COVERS */
+@import url(https://dl.dropboxusercontent.com/u/78192465/MyAnimeList/covers_more.css); /* for anime list */
+/*@import url(https://dl.dropboxusercontent.com/u/78192465/MyAnimeList/manga_covers_more.css);*/ /* for manga list */
+/* THEMES */
+/*@import url(https://dl.dropboxusercontent.com/u/78192465/MyAnimeList/Akame/Akame.css);*/ /* AKAME */
+/*@import url(https://dl.dropboxusercontent.com/u/78192465/MyAnimeList/Akame/Esdese.css);*/ /* ESDESE */
+/*@import url(https://dl.dropboxusercontent.com/u/78192465/MyAnimeList/Akame/Mein.css);*/ /* MEIN */
+@import url(https://dl.dropboxusercontent.com/u/78192465/MyAnimeList/Akame/Chelsea.css);*/ /* CHELSEA */
+/*@import url(https://dl.dropboxusercontent.com/u/78192465/MyAnimeList/Akame/Lubbock.css); /* LUBBOCK */
+
+/*
+HOW TO USE
+Use and COMPLETE this simple tutorial if you never installed CSS, it only takes a few minutes:
+http://myanimelist.net/forum/?topicid=200320
+  
+  
+When you're done with the tutorial and can see the starter layout on your list, copy and paste this entire page of codes (including this part and the codes above and below) 
+to your CSS edit box (the box titled Edit Advanced CSS File) replacing any other codes in the box. 
+Save with the blue button at the bottom. It will put this premade layout on your list instead of the starter one from the tutorial! 
+  
+  
+If the layout looks weird on your list after installing, you can try to alter your settings here.
+Common solutions are to set Default Status Settings to Watching or All Anime, check or uncheck tags (make sure you save afterwards):
+http://myanimelist.net/editprofile.php?go=listpreferences
+  
+  
+If your list still has problems you can ask us about it here, or other questions:
+http://myanimelist.net/forum/?topicid=200323
+  
+  
+And you'll find further ways to customize your list here:
+http://myanimelist.net/forum/?topicid=419405
+*/
+
+/* TOP MENU BUTTONS */
+/* FOR ANIME LIST */
+#mal\_cs_links div:last-of-type a:first-of-type { display: none; } /* DISABLE ANIMELIST BUTTON */
+
+/* FOR MANGA LIST */
+/* #mal\_cs_links div:last-of-type a:last-of-type { display: none; } */ /* DISABLE MANGALIST BUTTON */
+
+a { text-decoration: none; }
+
+body {
+	font-family: 'IM Fell English SC', serif;
+	font-size: 13px;
+	letter-spacing: .5px;
+	background-color: #000000;
+}
+
+/* LIST SETTINGS */
+
+#list_surround {
+	position: relative;
+	left: 100%;
+	margin-left: -890px;
+	top: 0;
+	width: 600px;
+	padding-top: 50px;
+}
+
+.table_header span { display: none; }
+
+.table_header:nth-child(2) { text-align: left; }
+
+.td1, .td2 { 
+	padding: 6px 0 3px; 
+	line-height: 13px;
+	vertical-align: top;
+	transition: background-color .4s ease;
+	-webkit-transition: background-color .4s ease;
+}
+
+.animetitle, .animetitle + small { display: table-cell; }
+
+.animetitle + small:before { content: ' '; white-space: pre-wrap; }
+
+.animetitle + small {
+	visibility: visible !important;
+	color: #FFFFFF;
+	font-size: 11px;
+	text-transform: lowercase;
+	letter-spacing: .5px;
+}
+
+#list_surround small { visibility: hidden; }
+
+#list_surround small a:first-of-type {
+	visibility: hidden;
+    	position: absolute;
+    	margin-left: -8px;
+    	font-size: 11px;
+}
+
+a[title="View More Information"] { display: none; }
+ 
+#list_surround tr:hover small, #list_surround tr:hover small a { visibility: visible; }
+
+td[class^='td']:nth-child(2) { text-align: left; }
+
+/* LIST COLOR */
+.table_header, .td1, .td2 {
+	text-align: center;
+	background-color: rgba(0, 0, 0, .5);
+}
+
+tr:hover td[class^='td']:first-child:before {
+	position: absolute;
+	display: inline-block;
+	content: '';
+	margin-left: -39px;
+	margin-top: -5px;
+	width: 25px;
+    	height: 25px;
+	animation: Rotate .5s infinite alternate;
+    	-webkit-animation: Rotate .5s infinite alternate;
+}
+
+tr:hover td[class^='td']:not(.borderRBL) { background-color: rgb(0, 0, 0); }
+
+/* LIST FONT COLOR */
+.table_headerLink {
+	font-family: 'Architects Daughter', cursive;
+	line-height: 24px;
+	font-size: 10px;
+	color: #000000 !important;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.table_headerLink strong { font-weight: normal !important; }
+
+/* BORDER COLORS */
+
+td[class^='td']:first-child { border-left: 2px solid #000000 !important;  }
+
+.table_header { box-shadow: 1px 0  0 #000000; } 
+
+/* HEADERS */
+.header_title {
+	pointer-events: none;
+	display: inline-block;
+	margin-left: -25px;
+	height: 189px;
+}
+
+/* Headers pics */
+.header_cw span, .header_completed span, .header_onhold span, .header_dropped span, .header_ptw span {
+	position: absolute;
+	display: inline-block;
+	width: 650px;
+	height: 250px;
+	font-size: 0;
+	background-repeat: no-repeat;
+	z-index: -1;
+}
+
+.header_cw span { background-position: center 0; }
+
+.header_completed span { background-position: center -250px; }
+
+.header_onhold span { background-position: center -500px; }
+
+.header_dropped span { background-position: center -750px; }
+
+.header_ptw span { background-position: center -1000px; }
+
+/* BACKGROUNDS */
+.status_selected { background-position: center, center; }
+
+.category_totals, #grand_totals {
+	padding: 5px;
+	text-align: center;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: rgb(0, 0, 0);
+	box-shadow: 1px 0  0 #000000;
+	text-transform: lowercase;
+}
+
+#grand_totals {
+	position: absolute;
+	display: block;
+	margin-top: -20px;
+	width: 590px;
+}
+
+#copyright, #copyright a { 
+	font-family: 'Architects Daughter', cursive;
+	color: #FFFFFF;
+}
+
+#copyright {
+	position: fixed;
+	display: block;
+	right: 5px;
+	bottom: 10px;
+	width: 280px;
+	font-size: 12px;
+	text-align: right !important;
+}
+
+#copyright a { 
+	padding-right: 2px;
+	font-size: 14px;
+}
+
+#copyright:after {
+	diplay: block;
+	content: "Designed by Hahaido";
+	font-size: 12px;
+}
+
+.hide:before {
+	display: block;
+	content: '';
+	margin-left: -15px;
+	margin-top: -73px;
+	width: 212px;
+	height: 300px;
+	background: url(http://i.imgur.com/m9LzvFC.png) no-repeat;
+}
+
+.hide {
+	visibility: hidden;
+	position: fixed !important;
+	display: block !important;
+	right: 50px;
+	top: -300px;
+	width: 182px;
+	height: 178px;
+	padding: 73px 15px 50px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-clip: content-box;
+	background-size: 100% 100%;
+	transform: rotate(5deg);
+	-webkit-transform: rotate(5deg);
+	transition: top .5s linear;
+	-webkit-transition: top .5s linear;
+	z-index: 5;
+}
+
+:hover + .hide {
+	top: 0;
+	visibility: visible;
+	animation: Dagger 1.5s ease-in-out .4s infinite alternate;
+	-webkit-animation: Dagger 1.5s ease-in-out .4s infinite alternate;
+}
+
+@-moz-document url-prefix() {
+	#list_surround small a:last-of-type:before { line-height: 6px; }	
+	.td1, .td2 { line-height: 14px; padding: 4px 0; }
+}
