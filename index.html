@@ -1,130 +1,128 @@
-<!DOCTYPE HTML>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<html>
-	<head>
-		<title>Help Desk</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Telegram Bot Chat ID</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Roboto, "Lucida Sans", "Lucida Sans Regular",
+          "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      #app {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .result {
+        height: 5em;
+      }
+      h2 {
+        font-weight: normal;
+      }
+      .input {
+        display: flex;
+        justify-content: center;
+      }
+      .lds-dual-ring {
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+      }
+      .lds-dual-ring:after {
+        content: " ";
+        display: block;
+        width: 64px;
+        height: 64px;
+        margin: 8px;
+        border-radius: 50%;
+        border: 6px solid #fcf;
+        border-color: #fcf transparent #fcf transparent;
+        animation: lds-dual-ring 1.2s linear infinite;
+      }
+      @keyframes lds-dual-ring {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      .error {
+        color: rgb(207, 127, 0);
+      }
+    </style>
+  </head>
+  <body>
+    <script src="https://unpkg.com/vue@3"></script>
 
-	</head>
+    <div id="app">
+      <div class="title">
+        <h2>Telegram Bot Chat ID identifier</h2>
+      </div>
+      <div class="input">
+        <input type="text" v-model="token" placeholder="Token" />
+        <button :disabled="!token || loading" @click="getChatId()">Get Chat ID</button>
+      </div>
+      <div class="result">
+        <h2 v-if="chatId">Chat ID: {{ chatId }}</h2>
+        <h3 v-if="error" class="error">{{error}}</h3>
+        <div class="loading" v-show="loading">
+            <div class="lds-dual-ring"></div>
+        </div>
+      </div>
+    </div>
 
-	<body class="is-preload">
-		<!-- Sidebar -->
-			<section id="sidebar">
-				<div class="inner">
-					<nav>
-						<ul>
-							<li><a href="#intro">Привет!</a></li>
-							<li><a href="#one">Файлы</a></li>
-							<li><a href="#two">Запуск</a></li>
-							<li><a href="#three">Аддоны</a></li>
-						</ul>
-					</nav>
-				</div>
-			</section>
+    <script>
+      const { createApp } = Vue;
 
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
-							<h1>Помощь!</h1>
-							<p>Штош, попытаемся разобраться что работает не так.</p>
-							<ul class="actions">
-
-							</ul>
-						</div>
-					</section>
-
-				<!-- One -->
-					<section id="one" class="wrapper style2 spotlights">
-						<section>
-
-							<div class="content">
-								<div class="inner">
-									<h2>Проверка файлов.</h2>
-									<p> Выключаем полность windows defender и его core isolation. (Memory Integrity)
-										<br> Открываем папку с игрой (Пример *D:\games\World_of_Warcraft*)
-									<br> Если EXE назван не стандартно (wow.exe), и анлокер его не увидел.
-								<br> Вам потребуется его переименовать. (Переименуйте его в wow (wow.exe)) </p>
-									<ul class="actions">
-
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section id="two">
-
-							<div class="content">
-								<div class="inner">
-									<h2>Как запускать если не работает как обычно.</h2>
-									<p>1. Запускаем анлокер от админа, если не помогло идем дальше.
-	<br />  2. Запускаем вов и анлокер от админа.
-	<br />   3. НЕ РАЗБЛОКИРУЙТЕ ЛУА ПОКА ИГРА НЕ ЗАГРУЗИЛАСЬ!
-	<br /> 		4. Если всё ещё не работает обновите ваш .Net (Так-же обновите Win10)
-									<ul class="actions">
-
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section id="three">
-
-							<div class="content">
-								<div class="inner">
-									<h2>Настройки аддонов</h2>
-									<br>
-										<h3>Battle For Azerot (8.X.X)</h3>
-									<p>
-										0. Первая кнопка на фрейме аддона включает и выкл. ротацию.
-										<br>
-										1. Провеьте куда установлен аддон Feral, откройте папку с игрой.
-<br/>  2. Откройте папку Interface потом  папку Addons поместите папку Feral туда..
-<br/>   3. В игре напишите /fd help вам выдаст список всех комманд.
-<br/> 	  4. Что бы получить список доступных профилей пишем /fd list
-<br> Что бы загрузить профиль пишем: /fd load *Имя профиля*
-<br> (Пример: Вы видите в списке: Feral --- FlexHub.com , пишите /fd load Feral)
-<br> (P.s Cooldowns - Бурсты, Interrupt - Кик, AOE - aoe...)
-</p>
-<br>
-
-									<hr>
-									<ul class="actions">
-
-									</ul>
-								</div>
-							</div>
-						</section>
-					</section>
-
-
-			</div>
-
-		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; Kirasaka Ayamo. All rights reserved.</li>
-					</ul>
-				</div>
-			</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+      createApp({
+        data() {
+          return {
+            token: "",
+            chatId: "",
+            loading:false,
+            error: '',
+          };
+        },
+        methods: {
+          async getChatId() {
+            this.error = '';
+            this.loading = true;
+            this.chatId = '';
+            const { token } = this;
+            if (!token) {
+              return;
+            }
+            try {
+              const res = await fetch(`https://api.telegram.org/bot${token}/getUpdates`);
+              const { result } = await res.json();
+              this.chatId = result[0].message.chat.id;
+              if (!this.chatId) {
+                this.error = 'Cannot get Chat ID. Check your token and send a message in your chat.';
+              }
+            } catch (e) {
+              this.error = 'Cannot get Chat ID. Check your token and send a message in your chat.';
+            } finally {
+              this.loading = false;
+            }
+          },
+        },
+      }).mount("#app");
+    </script>
+  </body>
 </html>
