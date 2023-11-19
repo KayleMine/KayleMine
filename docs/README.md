@@ -8,6 +8,6 @@
 <p align="center">
 <img src="https://i.imgur.com/IeuKp8d.png" width="425"/> <img src="https://i.imgur.com/XuoD7Sj.png" width="425"/> 
   <img src="https://i.imgur.com/TniYJN9.png" width="425"/> <img src="https://i.imgur.com/mEGyHXz.png" width="425"/> 
-  <img src="https://i.imgur.com/Fo3887R.png" width="425"/> 
+
   
 </p>
