@@ -2,8 +2,9 @@
 
 - [Home](/)
 - [More info](other.md)
+- [Showcase](Showcase.md)
+
 - [Windows support](Windows.md)
 - [Private servers prices](pprice.md)
 - [Retail servers prices](rprice.md)
-
 
