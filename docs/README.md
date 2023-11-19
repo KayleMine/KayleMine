@@ -6,8 +6,9 @@
 ?> Works with: 
 
 <p align="center">
-<img src="https://i.imgur.com/IeuKp8d.png" width="425"/> <img src="https://i.imgur.com/XuoD7Sj.png" width="425"/> 
-  <img src="https://i.imgur.com/TniYJN9.png" width="425"/> <img src="https://i.imgur.com/mEGyHXz.png" width="425"/> 
+<img src="https://i.imgur.com/nJay04B.png" width="425" height="230"/> <img src="https://i.imgur.com/7zwSrtQ.png" width="425" height="230"/> 
+<img src="https://i.imgur.com/z8IkBCc.png" width="425" height="230"/> <img src="https://i.imgur.com/rbFcVFJ.png" width="425" height="230"/> 
+<img src="https://i.imgur.com/lBDm31s.png" width="425" height="230"/> 
 
   
 </p>
