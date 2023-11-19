@@ -1,4 +1,4 @@
-
+<kbd style="width: 35%; height: auto; text-align: center; border: 2px solid  smoke; border-radius:25px">
 <p>________________________________________________</p> 
 
 # RU
@@ -17,6 +17,11 @@
 
 ?> При первой покупке необходимо покупать спек + подписку. В дальнейшем только подписку
 
+</kbd>
+
+
+
+<kbd style="width: 35%;  height: auto; text-align: center; border: 2px solid  smoke; border-radius:25px">
 <p>________________________________________________</p> 
 
 # EU
@@ -35,3 +40,4 @@
 > For coders: You can fully modify and edit profiles\core, addon un-encrypted.
 
 ?> On 1st buy, you have to get profile + sub. Next time you can buy just sub.
+</kbd>

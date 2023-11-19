@@ -1,7 +1,7 @@
 <!-- docs/_sidebar.md -->
 - <img src="https://i.imgur.com/oHIl3Pt.png" alt="Start Icon" style="vertical-align: middle;"> **FunPlay Rotations**
 
-	- [Versions](/) 
+	- [World Of Warcraft Supported](/) 
 	- [Detailed Information](other.md)
 	- [Showcase](Showcase.md)
 -  
