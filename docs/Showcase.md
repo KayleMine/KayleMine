@@ -11,8 +11,8 @@
 
 ?> Short example:
 
+!> Short example on YouTube: <a href="//youtu.be/78ifIX1qePk">Fury Warrior</a>
 
-!> YouTube: <a href="//youtu.be/78ifIX1qePk">Fury Warrior</a>
 
 
 
