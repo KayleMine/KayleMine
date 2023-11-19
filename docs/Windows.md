@@ -1,11 +1,8 @@
  
 <kbd style="width: auto; height: auto; text-align: center; border: 2px solid  smoke; border-radius:25px">
 
-<p>________________________________________________</p> 
 
 # RU
-
-<p>________________________________________________</p> 
 
 
 ?> Win 10 билды:
@@ -22,11 +19,8 @@
 
 
 <kbd style="width: auto; height: auto; text-align: center; border: 2px solid  smoke; border-radius:25px">
-<p>________________________________________________</p> 
 
 # EU
-
-<p>________________________________________________</p> 
 
 
 ?> Win 10 build's:
