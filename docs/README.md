@@ -1,7 +1,6 @@
 
-# Working with:
 
-?>
+?> Supported wow versions
 
 <p align="center">
 <img src="https://i.imgur.com/nJay04B.png" width="425" height="230"/> <img src="https://i.imgur.com/7zwSrtQ.png" width="425" height="230"/> 
