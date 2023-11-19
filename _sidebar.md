@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md -->
 
-- [Home](./)
+- [Home](./home.md)
 - [More info](./other.md)
 - [Windows support](./Windows.md)
 - [Private servers prices](./pprice.md)
