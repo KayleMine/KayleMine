@@ -1,9 +1,7 @@
-<kbd style="width: 35%; height: auto; text-align: center; border: 2px solid  smoke; border-radius:25px">
-<p>________________________________________________</p> 
+<kbd style="width: auto; height: auto; text-align: center; border: 2px solid  smoke; border-radius:25px">
 
 # RU
 
-<p>________________________________________________</p> 
 
 !> Не является пиксель ботом, не читаем информацию с экрана, можете во время боя свернуть игру. :)
 
@@ -21,12 +19,9 @@
 
 
 
-<kbd style="width: 35%;  height: auto; text-align: center; border: 2px solid  smoke; border-radius:25px">
-<p>________________________________________________</p> 
+<kbd style="width: auto;  height: auto; text-align: center; border: 2px solid  smoke; border-radius:25px">
 
 # EU
-
-<p>________________________________________________</p> 
 
 
 !> Not another pixel-bot, we not read your screen data, you can minimize game on fight. :)
