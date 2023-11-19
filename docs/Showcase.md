@@ -42,7 +42,5 @@
 
 <img src="https://i.imgur.com/YeMim36.png" width="271" height="663">
 
-<br><img src="https://i.imgur.com/XSakPky.png" width="331" height="363"></br>
+<img src="https://i.imgur.com/sGX9j2A.png" width="371" height="663">
 
-
- 
