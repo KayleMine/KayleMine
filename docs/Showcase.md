@@ -13,7 +13,7 @@
 </kbd>
 <br></br>
 
-<kbd style="width: 100%; height: auto; text-align: center; border: 2px solid  smoke; border-radius:25px">
+<kbd style="width: 100%; height: auto; text-align: center; border: 2px solid  white; border-radius:25px">
 
 <kbd style="width: 57%; height: auto; text-align: center; border: 2px solid  smoke; border-radius:25px">
 <p>________________________________________________</p> 
