@@ -1,10 +1,8 @@
 
 <kbd style="width: 100%; height: auto; text-align: center; border: 2px solid  smoke; border-radius:25px">
-<p>________________________________________________</p> 
+
 
 # Video demo
-
-<p>________________________________________________</p> 
 
 
 !> Short YT example in Action: <a href="//youtu.be/78ifIX1qePk">Fury Warrior</a>
@@ -16,11 +14,11 @@
 <kbd style="width: 100%; height: auto; text-align: center; border: 2px solid  white; border-radius:25px">
 
 <kbd style="width: auto; height: auto; text-align: center; border: 2px solid  smoke; border-radius:25px">
-<p>________________________________________________</p> 
+
 
 # Few examples.
 
-<p>________________________________________________</p> 
+ 
 </kbd>
 <br></br>
 
@@ -41,11 +39,9 @@
 
 
 <kbd style="width: 100%; text-align: center; border: 2px solid  smoke; border-radius:25px">
-<p>________________________________________________</p> 
+ 
 
 # Warcraft-logs.
-
-<p>________________________________________________</p> 
 
 
 <img src="https://i.imgur.com/CrYJzPR.png" width="auto" height="331"> <img src="https://i.imgur.com/lgmZwf1.png" width="auto" height="331">
