@@ -1,6 +1,3 @@
-# FunPlay Rotations
-
-!> Get on: <a href="//funpay.com/users/350736/">FunPay</a>
 
 <p>________________________________________________</p> 
 
