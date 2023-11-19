@@ -12,10 +12,17 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-	  loadSidebar: true,
-	  logo: 'https://i.imgur.com/YbWAVKG.png',
-      name: 'MB',
-      repo: ''
+	basePath: 'https://github.com/KayleMine/KayleMine/tree/main/docs/',
+	loadSidebar: true,
+	logo: 'https://i.imgur.com/YbWAVKG.png',
+	name: 'MB',
+	repo: '',
+	    subMaxLevel: 3,
+    sidebarDisplayLevel: 1,
+    search: 'auto',
+	          alias: {
+      '/.*/_sidebar.md': '/_sidebar.md',
+    }
     }
   </script>
   <!-- Docsify v4 -->
