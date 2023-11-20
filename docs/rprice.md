@@ -1,4 +1,4 @@
-<kbd style="width: auto; height: auto; text-align: center; border: 2px solid  smoke; border-radius:25px">
+<kbd style="width: auto; height: auto; text-align: center; border: 2px solid  white; border-radius:25px">
 
 <p></p>
  
@@ -6,6 +6,7 @@
 # RU Цены
 
 
+<kbd style="width: 15rem; height: auto; text-align: center; border: 2px solid  smoke; border-radius:25px">
 
 ?> Подписка:
  
@@ -22,15 +23,16 @@
 
 
 </kbd>
+</kbd>
 
-<kbd style="text-align: center; border: 2px solid  smoke; border-radius:25px">
+<kbd style="width: auto; height: auto; text-align: center; border: 2px solid  white; border-radius:25px">
 
 <p></p>
 
 
 # EU Prices
 
-
+<kbd style="width: 15rem; height: auto; text-align: center; border: 2px solid  smoke; border-radius:25px">
 
 ?> Subscription:
 
@@ -46,3 +48,5 @@
 
 !> 1 day — Free, one-time, just for test.
 </kbd>
+</kbd>
+

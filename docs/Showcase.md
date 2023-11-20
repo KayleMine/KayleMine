@@ -14,18 +14,22 @@
 
 <kbd style="width: 100%; height: auto; text-align: center; border: 2px solid  white; border-radius:25px">
 
-<kbd style="width: auto; height: auto; text-align: center; border: 2px solid  smoke; border-radius:25px">
+<kbd style="width: auto; height: auto; text-align: center; border: 2px solid  white; border-radius:25px">
 
 <p></p>
 
-# Few examples.
+
 
  
 </kbd>
 <br></br>
 
+
 <kbd style=" width: auto; text-align: center; border: 2px solid  smoke; border-radius:15px">
 
+<p></p>
+
+# Few examples.
 
 
 <br><img src="https://i.imgur.com/guOdLUM.png" width="425" height="50"></br>
@@ -45,6 +49,7 @@
 <p></p>
 
 # Warcraft-logs.
+
 
 
 <img src="https://i.imgur.com/CrYJzPR.png" width="auto" height="331"> <img src="https://i.imgur.com/lgmZwf1.png" width="auto" height="331">

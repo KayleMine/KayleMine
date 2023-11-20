@@ -1,8 +1,10 @@
-<kbd style="width: auto; height: auto; text-align: center; border: 2px solid  smoke; border-radius:25px">
+<kbd style="width: auto; height: auto; text-align: center; border: 2px solid  white; border-radius:25px">
 
 <p></p>
 
 # RU Цены
+
+<kbd style="width: 15rem; height: auto; text-align: center; border: 2px solid  smoke; border-radius:25px">
 
 ?>  Классы:
 
@@ -26,15 +28,17 @@
 |Навсегда|4000 ₽|
 
 </kbd>
+</kbd>
 
 
-<kbd style="width: auto; height: auto; text-align: center; border: 2px solid  smoke; border-radius:25px">
+<kbd style="width: auto; height: auto; text-align: center; border: 2px solid  white; border-radius:25px">
 
 <p></p>
 
 
 # EU Prices
  
+<kbd style="width: 15rem; height: auto; text-align: center; border: 2px solid  smoke; border-radius:25px">
 
 ?> Classes:
 
@@ -58,4 +62,5 @@
 |60|30 $|
 |Forever|60 $|
 
+</kbd>
 </kbd>
