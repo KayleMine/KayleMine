@@ -1,9 +1,9 @@
 <kbd style="width: auto; height: auto; text-align: center; border: 2px solid  smoke; border-radius:25px">
-<p>________________________________________________</p> 
 
+<p></p>
+ 
 # RU Цены
 
-<p>________________________________________________</p> 
 
 
 ?> Подписка:
@@ -23,11 +23,11 @@
 </kbd>
 
 <kbd style="text-align: center; border: 2px solid  smoke; border-radius:25px">
-<p>________________________________________________</p> 
+
+<p></p>
 
 # EU Prices
 
-<p>________________________________________________</p> 
 
 
 ?> Subscription:
