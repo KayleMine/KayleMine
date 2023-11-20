@@ -2,6 +2,7 @@
 
 <p></p>
  
+
 # RU Цены
 
 
@@ -25,6 +26,7 @@
 <kbd style="text-align: center; border: 2px solid  smoke; border-radius:25px">
 
 <p></p>
+
 
 # EU Prices
 
