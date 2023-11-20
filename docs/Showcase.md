@@ -1,6 +1,7 @@
 
 <kbd style="width: 100%; height: auto; text-align: center; border: 2px solid  smoke; border-radius:25px">
 
+<p></p>
 
 # Video demo
 
@@ -15,6 +16,7 @@
 
 <kbd style="width: auto; height: auto; text-align: center; border: 2px solid  smoke; border-radius:25px">
 
+<p></p>
 
 # Few examples.
 
@@ -40,6 +42,7 @@
 
 <kbd style="width: 100%; text-align: center; border: 2px solid  smoke; border-radius:25px">
  
+<p></p>
 
 # Warcraft-logs.
 
