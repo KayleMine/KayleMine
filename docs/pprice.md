@@ -1,10 +1,8 @@
 <kbd style="width: auto; height: auto; text-align: center; border: 2px solid  smoke; border-radius:25px">
-<p>________________________________________________</p> 
+
+<br></br>
 
 # RU Цены
-
-<p>________________________________________________</p> 
-
 
 ?>  Классы:
 
@@ -31,12 +29,11 @@
 
 
 <kbd style="text-align: center; border: 2px solid  smoke; border-radius:25px">
-<p>________________________________________________</p> 
 
+<br></br>
+ 
 # EU Prices
-
-<p>________________________________________________</p> 
-
+ 
 
 ?> Classes:
 
