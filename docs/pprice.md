@@ -28,10 +28,11 @@
 </kbd>
 
 
-<kbd style="text-align: center; border: 2px solid  smoke; border-radius:25px">
+<kbd style="width: auto; height: auto; text-align: center; border: 2px solid  smoke; border-radius:25px">
 
 <p></p>
- 
+
+
 # EU Prices
  
 
@@ -58,4 +59,3 @@
 |Forever|60 $|
 
 </kbd>
-<br></br>
