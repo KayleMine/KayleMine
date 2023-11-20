@@ -1,7 +1,7 @@
  
 <kbd style="width: auto; height: auto; text-align: center; border: 2px solid  smoke; border-radius:25px">
 
-<br></br>
+<p></p>
 
 # RU
 
@@ -21,7 +21,7 @@
 
 <kbd style="width: auto; height: auto; text-align: center; border: 2px solid  smoke; border-radius:25px">
 
-<br></br>
+<p></p>
 
 # EU
 
