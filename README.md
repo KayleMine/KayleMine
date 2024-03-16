@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Revolver Ocelot</h1>
-<h3 align="center"> - 🚽 An developer from <a href="https://www.youtube.com/watch?v=CNDI4WlJ8eo">India (jk, from EU)</a> 
+<h3 align="center"> - 🚽 An developer from <a href="https://www.youtube.com/watch?v=7iUiVa2tfFo">India (jk, from EU)</a> 
 
 </h3>
  
