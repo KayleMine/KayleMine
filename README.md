@@ -5,9 +5,7 @@
  
 
 # 📊 GitHub Stats:
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=KayleMine&theme=ayu-mirage&hide_border=false&include_all_commits=true&count_private=true&layout=compact&hide_progress=true&exclude_repo=Telegram-WoW-Whisper)
- 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KayleMine&theme=ayu-mirage&layout=donut&exclude_repo=Telegram-WoW-Whisper)](https://github.com/anuraghazra/github-readme-stats)
 
 <h3 align="left">Languages and Tools:</h3>
 
