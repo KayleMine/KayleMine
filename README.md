@@ -15,7 +15,7 @@
 ![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=plastic&logo=lua&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=plastic&logo=c-sharp&logoColor=white) 
 
 ### It's me 😂
-<a href="https://discord.com/users/900996616339742731">
+<a href="https://discord.com/users/900996616339742731"> <br>
 <img align="left" width="425" src="https://lanyard.kyrie25.me/api/900996616339742731?imgStyle=square&gradient=be123c-ffffff-be123c-be123c&bg=0d1117&idleMessage=Shalashaska">
 </a>
 
