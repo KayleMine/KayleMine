@@ -6,7 +6,7 @@
 
 
 # 📊 GitHub Stats:
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KayleMine&theme=ayu-mirage&layout=donut&exclude_repo=Telegram-WoW-Whisper)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KayleMine&theme=ayu-mirage&layout=donut&exclude_repo=Telegram-WoW-Whisper,wor-tortle)](https://github.com/anuraghazra/github-readme-stats)
 [![Anurag's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=KayleMine&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only)
 [![Anurag's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=KayleMine&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only)
 
