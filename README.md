@@ -13,7 +13,7 @@
 <h3 align="left"> Languages and Tools: <img align="left" width="100" src="https://i.imgur.com/DXtc9zQ.png"></h3>
 
 ![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=plastic&logo=lua&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=plastic&logo=c-sharp&logoColor=white) 
-[![wakatime](https://wakatime.com/badge/user/e329cc7e-d829-4e73-96ac-54060a6b950b.svg)](https://wakatime.com/@e329cc7e-d829-4e73-96ac-54060a6b950b)
+
 ### It's me 😂
 <a href="https://discord.com/users/900996616339742731"> <br>
 <img align="left" width="425" src="https://lanyard.kyrie25.me/api/900996616339742731?imgStyle=square&gradient=be123c-ffffff-be123c-be123c&bg=0d1117&idleMessage=Shalashaska">
