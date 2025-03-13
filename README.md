@@ -16,7 +16,7 @@
 
 ### It's me 😂
 <a href="https://discord.com/users/900996616339742731"> <br>
-<img align="left" width="425" src="https://lanyard.kyrie25.me/api/900996616339742731?imgStyle=square&gradient=be123c-ffffff-be123c-be123c&bg=0d1117&idleMessage=Shalashaska">
+<img align="left" width="425" src="https://lanyard.cnrad.dev/api/900996616339742731?imgStyle=square&gradient=be123c-ffffff-be123c-be123c&bg=0d1117&idleMessage=Shalashaska">
 </a>
 
 # Pixel-bot dev? Visit:
