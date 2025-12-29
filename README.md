@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Revolver Ocelot</h1>
+<h1 align="center">Hi 👋</h1>
 <h3 align="center"> - 🚽 An developer from <a href="https://coub.com/view/3lweb8">India (jk, from EU)</a> 
 <br><br>
 <img align="center" width="1024" src="https://i.imgur.com/zD6SeaE.gif"> 
@@ -14,10 +14,7 @@
 
 ![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=plastic&logo=lua&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=plastic&logo=c-sharp&logoColor=white) 
 
-### It's me 😂
-<a href="https://discord.com/users/900996616339742731"> <br>
-<img align="left" width="425" src="https://lanyard.cnrad.dev/api/900996616339742731?imgStyle=square&gradient=be123c-ffffff-be123c-be123c&bg=0d1117&idleMessage=Shalashaska">
-</a>
+
 
 # Pixel-bot dev? Visit:
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KayleMine&repo=RunAsLibrary)](https://github.com/KayleMine/RunAsLibrary)
